@@ -1,5 +1,5 @@
 const axios = require("axios");
-const API_KEY = "525900c10c874fa26bdb20b235d06eed";
+const API_KEY = process.env.API_KEY;
 const fetchNews = async (req, res) => {
   console.log("fetching news");
   try {
